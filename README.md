@@ -1,5 +1,5 @@
-# power-bi-embedded-workspace-script
-A simple script for creating [Power Bi Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) Workspaces and uploading reports in one command.
+# Power BI Embedded Workspace
+A simple script for creating [Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) Workspaces and uploading reports in one command.
 
 ## Usage
 You have two options:
