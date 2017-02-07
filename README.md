@@ -1,5 +1,7 @@
 # Power BI Embedded Workspace
-A simple script for creating [Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) Workspaces and uploading reports in one command.
+A simple script for creating [Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) Workspaces and uploading reports in one command.  It uses Python to combine two command lines tools to achieve creating a workspace collection, creating a workspace, uploading the report, and setting the credentials on the report.
+
+![image of tool working](images/powerbi-script-run.png)
 
 ## Usage
 You have two options:
