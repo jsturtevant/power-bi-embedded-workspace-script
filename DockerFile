@@ -1,0 +1,15 @@
+FROM python:3.6
+
+RUN apt-get update
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN apt-get install -y nodejs
+
+RUN npm install -g azure-cli
+RUN npm install -g powerbi-cli
+WORKDIR /usr/src/
+
+# fix powerbi cli on linux: https://github.com/Microsoft/PowerBI-Cli/issues/5
+COPY fix-pbcli-linux.sh /usr/src/
+RUN bash fix-pbcli-linux.sh
+
+CMD /bin/bash
