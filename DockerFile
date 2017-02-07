@@ -12,4 +12,6 @@ WORKDIR /usr/src/
 COPY fix-pbcli-linux.sh /usr/src/
 RUN bash fix-pbcli-linux.sh
 
+COPY createworkspacecollection.py /usr/src/
+
 CMD /bin/bash
