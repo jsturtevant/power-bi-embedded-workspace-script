@@ -7,11 +7,12 @@ A simple script for creating [Power BI Embedded](https://azure.microsoft.com/en-
 You have two options:
 
 - [Python script directly](#python-script-directly)
-- [Use Docker with tools already installed](Use Docker with tools already installed)
+- [Use Docker with tools already installed](#use-docker-with-tools-already-installed)
 
 ### Python script directly
-The python script above assumes you have already installed the following and they are on your path:
+The python script above assumes you have already installed the following and they are on your path.  Skip to [docker usage](#use-docker-with-tools-already-installed) if you don't want to install everything.
 
+- [Python 3.6](https://www.python.org/downloads/)
 - [PowerBi CLI](https://github.com/Microsoft/PowerBI-Cli)
 - [Azure CLI](https://docs.microsoft.com/en-us/azure/xplat-cli-install)  
 
